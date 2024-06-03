@@ -19,4 +19,3 @@ client.connect(mqttBroker)
 client.subscribe(MQTT_Topic)
 client.on_message=on_message
 client.loop_forever() 
-
